@@ -7,7 +7,7 @@ const todocontroller = require("./controller/todocontroller")
 
 
 app.use("/user",usercontroller)
-app.use("/user",todocontroller)
+app.use("/todo",todocontroller)
 
 
 module.exports= app;
